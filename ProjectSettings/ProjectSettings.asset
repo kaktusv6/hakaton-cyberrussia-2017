@@ -11,8 +11,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: hakaton-cyberrussia-2017
+  companyName: Oranges
+  productName: BulgakovAR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -147,7 +147,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.oranges.BulgakovAR
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -240,7 +241,9 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
-  m_BuildTargetEnableVuforiaSettings: []
+  m_BuildTargetEnableVuforiaSettings:
+  - m_BuildTarget: Android
+    m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
