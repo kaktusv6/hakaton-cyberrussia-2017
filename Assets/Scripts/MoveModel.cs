@@ -11,19 +11,31 @@ public class MoveModel : MonoBehaviour {
 
 	private Vector3 _startPosition;
 	private Vector3 _forward;
+	private bool _isCreate;
 	
 	// Use this for initialization
 	void Start()
 	{
 		_startPosition = transform.position;
 		_forward = transform.forward;
+		_isCreate = false;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
+		//CreateTrail();
 		MoveObject();
 		Timing();
+	}
+
+	void CreateTrail()
+	{
+	    if(_isCreate == false){
+		    GameObject trail = Instantiate(this.gameObject, this.transform);
+		    _isCreate = true;
+	    }
+		
 	}
 
 	void MoveObject()
