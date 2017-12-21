@@ -15,18 +15,19 @@ public class ScreenShote : MonoBehaviour {
 		resWidth = camera.pixelWidth;
 		resHeight = camera.pixelHeight;
 	}
-	public static string ScreenShotName(int width, int height) {
+	
+	private static string ScreenShotName(int width, int height) {
 		return string.Format("{0}/screenshots/screen_{1}x{2}_{3}.png", 
 			Application.dataPath, 
 			width, height, 
 			System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"));
 	}
  
-	public void TakeHiResShot() {
+	private void TakeHiResShot() {
 		takeHiResShot = true;
 	}
 
-	void ScreenShot()
+	public void ScreenShot()
 	{
 		RenderTexture rt = new RenderTexture(resWidth, resHeight, 24);
 		camera.targetTexture = rt;

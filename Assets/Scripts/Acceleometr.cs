@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Acceleometr : MonoBehaviour
 {
-	private Vector3 acDir;
+	public GameObject Target;
+
+	private Vector3 _distance;
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -13,11 +16,11 @@ public class Acceleometr : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		acDir = transform.position;
+		_distance = Target.transform.position - transform.position;
 	}
 
 	private void OnGUI()
 	{
-		GUI.Box(new Rect(0, 0, 100, 30), acDir.ToString());
+		GUI.Box(new Rect(0, 0, 100, 30), _distance.magnitude.ToString());
 	}
 }

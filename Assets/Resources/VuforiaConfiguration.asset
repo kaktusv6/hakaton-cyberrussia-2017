@@ -45,12 +45,9 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - VuforiaMars_Images
-    - VuforiaMars_Object_OT
-    - VuforiaMars_VuMark
+    - HakatonNavigation
     dataSetsToActivate:
-    - VuforiaMars_Images
-    - VuforiaMars_Object_OT
-    - VuforiaMars_VuMark
+    - HakatonNavigation
   videoBackground:
     clippingMode: 0
     numDivisions: 2
