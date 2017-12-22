@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2e63e7d371dfe7841b229660ef4bad1b
+timeCreated: 1513904353
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Anisa Sans
+  fontNames:
+  - Anisa Sans
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4c9b9fcc74f26fc4f81f136fada124e7
+timeCreated: 1513904010
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Skinny Sunbeams
+  fontNames:
+  - Skinny Sunbeams
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 21561de94721ea64f881a9a796dc0752, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
