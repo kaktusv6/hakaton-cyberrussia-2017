@@ -7,7 +7,7 @@ public class ButtonClick : MonoBehaviour {
 
 	public void StartGame()
 	{
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(3);
 	}
 
 	public void Exit()
@@ -19,4 +19,9 @@ public class ButtonClick : MonoBehaviour {
 	{
 		SceneManager.LoadScene(0);
 	}
+	
+	public void OpenInstructionMenu()
+    {
+    	SceneManager.LoadScene(2);
+    }
 }
